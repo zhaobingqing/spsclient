@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/vn06qw8/workspace/project/spsclient/app/src/main/assets"><file name="arrow.png" path="/Users/vn06qw8/workspace/project/spsclient/app/src/main/assets/arrow.png"/></source><source path="/Users/vn06qw8/workspace/project/spsclient/app/build/generated/assets/shaders/debug"/></dataSet><dataSet config="debug"><source path="/Users/vn06qw8/workspace/project/spsclient/app/src/debug/assets"/></dataSet></merger>

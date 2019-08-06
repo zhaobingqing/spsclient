@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="arrcontent">
+        <item>预埋管线有裸露</item>
+        <item>附近20米有施工</item>
+        <item>防护装置有腐蚀</item>
+    </string-array>
+    <string-array name="layers_array">
+        <item>@string/normal</item>
+        <item>@string/satellite</item>
+    </string-array>
+    <string-array name="pay_MoneyWayArr">
+        <item>现金</item>
+        <item>POS刷卡</item>
+         <item>支票</item>
+    </string-array>
+    <string-array name="send_TimeArr">
+        <item>只工作日送货（双休日、节假日不用送）</item>
+        <item>工作日、双休日、节假日均可送货</item>
+        <item>只双休日、节假日送货（工作日不用送）</item>
+    </string-array>
+    <attr format="reference" name="coordinatorLayoutStyle"/>
+    <color name="black">#ff000000</color>
+    <color name="black2">#464646</color>
+    <color name="button_clicked">#9dffb6</color>
+    <color name="button_press">#009b27</color>
+    <color name="darkgray">#ff808080</color>
+    <color name="edit_focus">#d9ffd9</color>
+    <color name="end_color">#A0cfef83</color>
+    <color name="fontblack">#ff4b4b4b</color>
+    <color name="gray">#ff7d7d7d</color>
+    <color name="home_item">#ffd90000</color>
+    <color name="home_item_normal">#fff2f2f2</color>
+    <color name="home_item_selector">#ffc9c9c9</color>
+    <color name="notification_action_color_filter">#ffffffff</color>
+    <color name="notification_icon_bg_color">#ff9e9e9e</color>
+    <color name="notification_material_background_media_default_color">#ff424242</color>
+    <color name="orange">#ffff740f</color>
+    <color name="primary_text_default_material_dark">#ffffffff</color>
+    <color name="red">#ffff0000</color>
+    <color name="ripple_material_light">#1f000000</color>
+    <color name="secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="secondary_text_default_material_light">#8a000000</color>
+    <color name="tab_info_dark">#ff000000</color>
+    <color name="tab_info_light">#ff808080</color>
+    <color name="task_detail_divider">#FFCC00</color>
+    <color name="task_detail_view">#cee7ff</color>
+    <color name="task_list_view">#f5f5f5</color>
+    <color name="task_map_menu">#d9d9ff</color>
+    <color name="title_background">#9090ff</color>
+    <color name="title_bg">#1C86EE</color>
+    <color name="transparency">#00000000</color>
+    <color name="white">#ffffffff</color>
+    <color name="yellow">#ffe87215</color>
+    <declare-styleable name="ColorStateListItem"><attr name="android:color"/><attr format="float" name="alpha"/><attr name="android:alpha"/></declare-styleable>
+    <declare-styleable name="CoordinatorLayout"><attr format="reference" name="keylines"/><attr format="color|reference" name="statusBarBackground"/></declare-styleable>
+    <declare-styleable name="CoordinatorLayout_Layout"><attr name="android:layout_gravity"/><attr format="string" name="layout_behavior"/><attr format="reference" name="layout_anchor"/><attr format="integer" name="layout_keyline"/><attr name="layout_anchorGravity">
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="center_vertical" value="0x10"/>
+            
+            <flag name="fill_vertical" value="0x70"/>
+            
+            <flag name="center_horizontal" value="0x01"/>
+            
+            <flag name="fill_horizontal" value="0x07"/>
+            
+            <flag name="center" value="0x11"/>
+            
+            <flag name="fill" value="0x77"/>
+            
+            <flag name="clip_vertical" value="0x80"/>
+            
+            <flag name="clip_horizontal" value="0x08"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+        </attr><attr format="enum" name="layout_insetEdge">
+            
+            <enum name="none" value="0x0"/>
+            
+            <enum name="top" value="0x30"/>
+            
+            <enum name="bottom" value="0x50"/>
+            
+            <enum name="left" value="0x03"/>
+            
+            <enum name="right" value="0x05"/>
+            
+            <enum name="start" value="0x00800003"/>
+            
+            <enum name="end" value="0x00800005"/>
+        </attr><attr name="layout_dodgeInsetEdges">
+            
+            <flag name="none" value="0x0"/>
+            
+            <flag name="top" value="0x30"/>
+            
+            <flag name="bottom" value="0x50"/>
+            
+            <flag name="left" value="0x03"/>
+            
+            <flag name="right" value="0x05"/>
+            
+            <flag name="start" value="0x00800003"/>
+            
+            <flag name="end" value="0x00800005"/>
+            
+            <flag name="all" value="0x77"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamily"><attr format="string" name="fontProviderAuthority"/><attr format="string" name="fontProviderPackage"/><attr format="string" name="fontProviderQuery"/><attr format="reference" name="fontProviderCerts"/><attr name="fontProviderFetchStrategy">
+            
+            <enum name="blocking" value="0"/>
+            
+            <enum name="async" value="1"/>
+        </attr><attr format="integer" name="fontProviderFetchTimeout">
+            
+            <enum name="forever" value="-1"/>
+        </attr></declare-styleable>
+    <declare-styleable name="FontFamilyFont"><attr name="fontStyle">
+            <enum name="normal" value="0"/>
+            <enum name="italic" value="1"/>
+        </attr><attr format="reference" name="font"/><attr format="integer" name="fontWeight"/><attr format="string" name="fontVariationSettings"/><attr format="integer" name="ttcIndex"/><attr name="android:fontStyle"/><attr name="android:font"/><attr name="android:fontWeight"/><attr name="android:fontVariationSettings"/><attr name="android:ttcIndex"/></declare-styleable>
+    <declare-styleable name="GradientColor"><attr name="android:startColor"/><attr name="android:centerColor"/><attr name="android:endColor"/><attr name="android:type"/><attr name="android:gradientRadius"/><attr name="android:centerX"/><attr name="android:centerY"/><attr name="android:startX"/><attr name="android:startY"/><attr name="android:endX"/><attr name="android:endY"/><attr name="android:tileMode"/></declare-styleable>
+    <declare-styleable name="GradientColorItem"><attr name="android:offset"/><attr name="android:color"/></declare-styleable>
+    <dimen name="compat_button_inset_horizontal_material">4dp</dimen>
+    <dimen name="compat_button_inset_vertical_material">6dp</dimen>
+    <dimen name="compat_button_padding_horizontal_material">8dp</dimen>
+    <dimen name="compat_button_padding_vertical_material">4dp</dimen>
+    <dimen name="compat_control_corner_material">2dp</dimen>
+    <dimen name="compat_notification_large_icon_max_height">320dp</dimen>
+    <dimen name="compat_notification_large_icon_max_width">320dp</dimen>
+    <dimen name="notification_action_icon_size">32dp</dimen>
+    <dimen name="notification_action_text_size">13sp</dimen>
+    <dimen name="notification_big_circle_margin">12dp</dimen>
+    <dimen name="notification_content_margin_start">8dp</dimen>
+    <dimen name="notification_large_icon_height">64dp</dimen>
+    <dimen name="notification_large_icon_width">64dp</dimen>
+    <dimen name="notification_main_column_padding_top">10dp</dimen>
+    <dimen name="notification_media_narrow_margin">@dimen/notification_content_margin_start</dimen>
+    <dimen name="notification_right_icon_size">16dp</dimen>
+    <dimen name="notification_right_side_padding_top">2dp</dimen>
+    <dimen name="notification_small_icon_background_padding">3dp</dimen>
+    <dimen name="notification_small_icon_size_as_large">24dp</dimen>
+    <dimen name="notification_subtext_size">13sp</dimen>
+    <dimen name="notification_top_pad">10dp</dimen>
+    <dimen name="notification_top_pad_large_text">5dp</dimen>
+    <dimen name="subtitle_corner_radius">2dp</dimen>
+    <dimen name="subtitle_outline_width">2dp</dimen>
+    <dimen name="subtitle_shadow_offset">2dp</dimen>
+    <dimen name="subtitle_shadow_radius">2dp</dimen>
+    <drawable name="notification_template_icon_bg">#3333B5E5</drawable>
+    <drawable name="notification_template_icon_low_bg">#0cffffff</drawable>
+    <item name="line1" type="id"/>
+    <item name="line3" type="id"/>
+    <item name="tag_transition_group" type="id"/>
+    <item name="tag_unhandled_key_event_manager" type="id"/>
+    <item name="tag_unhandled_key_listeners" type="id"/>
+    <item name="text" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="title" type="id"/>
+    <integer name="cancel_button_image_alpha">127</integer>
+    <integer name="status_bar_notification_info_maxnum">999</integer>
+    <string name="Rotate">Rotate</string>
+    <string name="alpha">Alpha</string>
+    <string name="animate">Animate</string>
+    <string name="app_name">智能巡检系统</string>
+    <string name="basic_description">Launches a map</string>
+    <string name="basic_map">Basic Map</string>
+    <string name="beijing">"beijing"</string>
+    <string name="bottom_center">BottomCenter</string>
+    <string name="bottom_left">BottomLeft</string>
+    <string name="bottom_right">BottomRight</string>
+    <string name="camera_demo">Camera</string>
+    <string name="camera_description">Demonstrates camera functions.</string>
+    <string name="clear_map">Clear</string>
+    <string name="compass">Compass</string>
+    <string name="current_location_in_beijing">志新西路</string>
+    <string name="custom_info_contents">Custom info contents</string>
+    <string name="custom_info_window">Custom info window</string>
+    <string name="default_info_window">Default info window</string>
+    <string name="demo_title">智能巡检系统</string>
+    <string name="detail">详细</string>
+    <string name="detailSymbol">   >></string>
+    <string name="down_arrow">\u2193</string>
+    <string name="drag_melbourne">Drag Melbourne</string>
+    <string name="events_demo">Events</string>
+    <string name="events_description">Demonstrates events functions.</string>
+    <string name="exit_message">再按一次退出程序</string>
+    <string name="fill_alpha">Fill Alpha</string>
+    <string name="fill_hue">Fill Hue</string>
+    <string name="geocoder_demo">geocoder</string>
+    <string name="geocoder_description">Demonstrates how to use geocoder.</string>
+    <string name="get_scale">GetScale</string>
+    <string name="go_to_lujiazui">陆家嘴</string>
+    <string name="go_to_zhongguancun">中关村</string>
+    <string name="groundoverlay_demo">Ground Overlays</string>
+    <string name="groundoverlay_description">Demonstrates how to add a GroundOverlay to a map.</string>
+    <string name="hello">Hello World</string>
+    <string name="hue">Hue</string>
+    <string name="hybrid">Hybrid</string>
+    <string name="initializing_view_message">系统正在初始化... 请耐心等待！</string>
+    <string name="layers_demo">Layers</string>
+    <string name="layers_description">Demonstrates the different map layers.</string>
+    <string name="left_arrow">\u2190</string>
+    <string name="location">location is  doing</string>
+    <string name="locationGPS_demo">LocationGPS Demo</string>
+    <string name="locationGPS_description">Demonstrates how to use a locationGPS.</string>
+    <string name="locationNetwork_demo">LocationNetwork Demo</string>
+    <string name="locationNetwork_description">Demonstrates how to use LocationNetwork </string>
+    <string name="locationsource_demo">Location Source Demo</string>
+    <string name="locationsource_description">Demonstrates how to use a custom location source.</string>
+    <string name="loginview_authorization_code">验证码：</string>
+    <string name="loginview_authorization_failor">验证失败！请联系管理员！</string>
+    <string name="loginview_authorization_message">验证码：******</string>
+    <string name="loginview_login">登  录</string>
+    <string name="loginview_name_message">您的姓名，如：xxx</string>
+    <string name="loginview_password">密码：</string>
+    <string name="loginview_password_message">请输入密码 ***</string>
+    <string name="loginview_user_name">用户名：</string>
+    <string name="logo_position">LogoPosition</string>
+    <string name="map_not_ready">SupportMapFragment初始化失败</string>
+    <string name="map_screenshot">MapScreenshot</string>
+    <string name="mapview_demo">mapview</string>
+    <string name="mapview_description">Demonstrates how to use mapview.</string>
+    <string name="marker_demo">Markers</string>
+    <string name="marker_description">Demonstrates how to add Markers to a map.</string>
+    <string name="move_the_camera">Move the camera</string>
+    <string name="multi_map_demo">Multiple Maps</string>
+    <string name="multi_map_description">Demonstrates how to show multiple maps in a single activity.</string>
+    <string name="my_location">My Location</string>
+    <string name="mylocation_button">MyLocation Button</string>
+    <string name="mylocation_layer">MyLocation Layer</string>
+    <string name="no_demos">No demos</string>
+    <string name="normal">Normal</string>
+    <string name="offlinemap_demo">offlinemap</string>
+    <string name="offlinemap_description">Demonstrates how to use offlinemap.</string>
+    <string name="operating_department">完成部门</string>
+    <string name="operating_person">操作人员</string>
+    <string name="options_demo">Options</string>
+    <string name="options_description">Demonstrates how to use Options to initialize a map.</string>
+    <string name="pause">"pause"</string>
+    <string name="payMoney_way">付款方式</string>
+    <string name="pipeline_name">管线名称</string>
+    <string name="poisearch_demo">poisearch</string>
+    <string name="poisearch_description">Demonstrates how to poisearch to a map.</string>
+    <string name="polygon_demo">Polygons</string>
+    <string name="polygon_description">Demonstrates how to add Polygons to a map.</string>
+    <string name="polyline_demo">Polylines</string>
+    <string name="polyline_description">Demonstrates how to add Polylines to a map.</string>
+    <string name="programmatic_demo">Programmatically add map</string>
+    <string name="programmatic_description">Demonstrates how to add a MapFragment programmatically.</string>
+    <string name="properties_sydney_polygon">Properties for Sydney Polygon</string>
+    <string name="properties_sydney_polyline">管线坐标图示</string>
+    <string name="refresh_main">刷新</string>
+    <string name="remove">"remove"</string>
+    <string name="reoute_description">Demonstrates how to add route to a map.</string>
+    <string name="reset_map">Reset</string>
+    <string name="retain_map">Retain map</string>
+    <string name="retain_map_description">Demonstrates how to reuse a MapFragment.</string>
+    <string name="return_main">返回</string>
+    <string name="right_arrow">\u2192</string>
+    <string name="rotate">Rotate Gestures</string>
+    <string name="route_demo">Route</string>
+    <string name="satellite">Satellite</string>
+    <string name="scale">Scale</string>
+    <string name="scroll">Scroll Gestures</string>
+    <string name="search_title">poisearch  key</string>
+    <string name="send_way">送货时间</string>
+    <string name="start">"start"</string>
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="stop">"stop"</string>
+    <string name="stop_animation">\u25A0</string>
+    <string name="stroke_width">Stroke Width</string>
+    <string name="tap_instructions">Tap or long press on the map</string>
+    <string name="task_list">任务列表</string>
+    <string name="task_name">任务名称</string>
+    <string name="task_result_view_feedback_content">请填写任务完成情况记录\n内容如：\n测量数据\n周围施工情况</string>
+    <string name="taskdetail_description">任务描述</string>
+    <string name="taskdetail_task_finished_position">结束位置</string>
+    <string name="taskdetail_task_finished_time">实施时间</string>
+    <string name="taskdetail_task_plan_time">计划时间</string>
+    <string name="taskdetail_task_start_position">开始位置</string>
+    <string name="taskdetail_task_state">完成状态</string>
+    <string name="taskdetail_view_history_record">反馈历史记录 </string>
+    <string name="tasklist_left_img">图片</string>
+    <string name="tasklist_list_img">显示图片</string>
+    <string name="tasklist_photo_img">拍照</string>
+    <string name="tasklist_result">反馈</string>
+    <string name="taskmap_view_context_menu_title">巡检操作</string>
+    <string name="taskmap_view_end_checking">结束巡检</string>
+    <string name="taskmap_view_map">地图</string>
+    <string name="taskmap_view_pause_checking">挂起</string>
+    <string name="taskmap_view_record_data">记录反馈</string>
+    <string name="taskmap_view_return_main">返回首页</string>
+    <string name="taskmapview_restart">重起</string>
+    <string name="taskmapview_start_checking">开始巡检</string>
+    <string name="taskmapview_task_map">查看更多...</string>
+    <string name="taskresult_finished_person">完成人员</string>
+    <string name="taskresult_finished_record">完成记录</string>
+    <string name="taskresult_finished_time">完成时间</string>
+    <string name="taskresult_position_coordinates">位置坐标</string>
+    <string name="taskresult_record">填写任务反馈</string>
+    <string name="taskresult_selector_message">请选择...</string>
+    <string name="taskresult_submit_result">提交反馈</string>
+    <string name="taskresult_task_title">任务完成反馈信息</string>
+    <string name="terrain">Terrain</string>
+    <string name="tile_overlay_demo">Tile Overlays</string>
+    <string name="tile_overlay_description">Demonstrates how to add a tile overlay to a map.</string>
+    <string name="tilt">Tilt Gestures</string>
+    <string name="traffic">Traffic</string>
+    <string name="transparency">Transparency</string>
+    <string name="uisettings_demo">UI Settings</string>
+    <string name="uisettings_description">Demonstrates how to alter user interface settings.</string>
+    <string name="up_arrow">\u2191</string>
+    <string name="view_audio">语音</string>
+    <string name="view_photo">拍照</string>
+    <string name="view_video">视频</string>
+    <string name="welcomeContent">欢迎使用巡线系统</string>
+    <string name="width">Width</string>
+    <string name="zoom_buttons">Zoom Buttons</string>
+    <string name="zoom_gestures">Zoom Gestures</string>
+    <string name="zoom_in">+</string>
+    <string name="zoom_out">-</string>
+    <style name="TextAppearance.Compat.Notification" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="TextAppearance.Compat.Notification.Info">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Line2" parent="TextAppearance.Compat.Notification.Info"/>
+    <style name="TextAppearance.Compat.Notification.Line2.Media" parent="TextAppearance.Compat.Notification.Info.Media"/>
+    <style name="TextAppearance.Compat.Notification.Media"/>
+    <style name="TextAppearance.Compat.Notification.Time">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">?android:attr/textColorSecondary</item>
+    </style>
+    <style name="TextAppearance.Compat.Notification.Time.Media"/>
+    <style name="TextAppearance.Compat.Notification.Title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+    <style name="TextAppearance.Compat.Notification.Title.Media"/>
+    <style name="Widget.Compat.NotificationActionContainer" parent=""/>
+    <style name="Widget.Compat.NotificationActionText" parent=""/>
+    <style name="Widget.Support.CoordinatorLayout" parent="android:Widget">
+        <item name="statusBarBackground">#000000</item>
+    </style>
+</resources>

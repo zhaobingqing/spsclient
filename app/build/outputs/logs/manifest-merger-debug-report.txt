@@ -1,0 +1,470 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:2:1-221:12
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:2:1-221:12
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:2:1-221:12
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:2:1-221:12
+MERGED from [com.android.support:support-v4:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e95019263e15eba2bd78336fbe1de311/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/a4f8acf13001849a92ce06336e412549/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5fc2a629d3cf1ed63f635e61a2128dcd/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/41c7ffb76d822539f9e312753cf2cc70/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/36bf11c50bd7a41495df3f9f81291b26/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d57515f379cd5c61de2b92e736b27ad6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0324368453a83bfbd306a7682db68049/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/62a824fc7efff9a4363c3b34e7cec0df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e7cb5f357d3a0e2cf81993474245ea48/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/beec377334e5bc49e89bee7f31119e5a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/07a6b0165fa0a27fd3606bfe30e72196/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/fc60b2603ff6511c5ed6a846ca79655b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/53431c9ab36bae7703f0f1329d4b7c24/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/48fa818a7f036894883c3a43c1cb2610/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c790197eb195eb127f33b641d09f5c87/AndroidManifest.xml:17:1-25:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ce781d53fbd32def2b09aa1398b3d8b2/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6e14f29a7de5d150cb2e182f3682e9fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/958a8ed9516a81cb6e89bf23412cd946/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d8d0b13a1dec3441381abd06eb3933d5/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/76a3745276512786465a3d92127a0b53/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d53572dd5e97aced8c402e9648f47418/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6dbd40eded90a447df3b5357fac7eb7c/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5da129cda7c57ffd1eae4cc1edebf442/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dfef84e6c364e295abc4df0a62d5e3a4/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ca277e196bcd15937bc48690a3bda1b9/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:2:1-221:12
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:2:1-221:12
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:2:1-221:12
+	package
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:3:5-31
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:6:5-30
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+	xmlns:tools
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:4:5-51
+	xmlns:android
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:5:5-28
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e95019263e15eba2bd78336fbe1de311/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-v4-28.0.0.aar/e95019263e15eba2bd78336fbe1de311/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/a4f8acf13001849a92ce06336e412549/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-media-compat-28.0.0.aar/a4f8acf13001849a92ce06336e412549/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5fc2a629d3cf1ed63f635e61a2128dcd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0.aar/5fc2a629d3cf1ed63f635e61a2128dcd/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/41c7ffb76d822539f9e312753cf2cc70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0.aar/41c7ffb76d822539f9e312753cf2cc70/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/36bf11c50bd7a41495df3f9f81291b26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0.aar/36bf11c50bd7a41495df3f9f81291b26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d57515f379cd5c61de2b92e736b27ad6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/loader-28.0.0.aar/d57515f379cd5c61de2b92e736b27ad6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0324368453a83bfbd306a7682db68049/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0.aar/0324368453a83bfbd306a7682db68049/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/62a824fc7efff9a4363c3b34e7cec0df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0.aar/62a824fc7efff9a4363c3b34e7cec0df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e7cb5f357d3a0e2cf81993474245ea48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0.aar/e7cb5f357d3a0e2cf81993474245ea48/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/beec377334e5bc49e89bee7f31119e5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0.aar/beec377334e5bc49e89bee7f31119e5a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/07a6b0165fa0a27fd3606bfe30e72196/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/customview-28.0.0.aar/07a6b0165fa0a27fd3606bfe30e72196/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/fc60b2603ff6511c5ed6a846ca79655b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0.aar/fc60b2603ff6511c5ed6a846ca79655b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/53431c9ab36bae7703f0f1329d4b7c24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0.aar/53431c9ab36bae7703f0f1329d4b7c24/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/48fa818a7f036894883c3a43c1cb2610/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/48fa818a7f036894883c3a43c1cb2610/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c790197eb195eb127f33b641d09f5c87/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c790197eb195eb127f33b641d09f5c87/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ce781d53fbd32def2b09aa1398b3d8b2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ce781d53fbd32def2b09aa1398b3d8b2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6e14f29a7de5d150cb2e182f3682e9fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0.aar/6e14f29a7de5d150cb2e182f3682e9fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/958a8ed9516a81cb6e89bf23412cd946/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0.aar/958a8ed9516a81cb6e89bf23412cd946/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d8d0b13a1dec3441381abd06eb3933d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/print-28.0.0.aar/d8d0b13a1dec3441381abd06eb3933d5/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/76a3745276512786465a3d92127a0b53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0.aar/76a3745276512786465a3d92127a0b53/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d53572dd5e97aced8c402e9648f47418/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0.aar/d53572dd5e97aced8c402e9648f47418/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6dbd40eded90a447df3b5357fac7eb7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/6dbd40eded90a447df3b5357fac7eb7c/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5da129cda7c57ffd1eae4cc1edebf442/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/livedata-1.1.1.aar/5da129cda7c57ffd1eae4cc1edebf442/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dfef84e6c364e295abc4df0a62d5e3a4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/dfef84e6c364e295abc4df0a62d5e3a4/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ca277e196bcd15937bc48690a3bda1b9/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/ca277e196bcd15937bc48690a3bda1b9/AndroidManifest.xml:20:5-44
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:8:5-10:41
+INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:8:5-10:41
+	android:targetSdkVersion
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:10:9-38
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:9:9-34
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:14:5-67
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:14:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:15:22-78
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:16:5-81
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:16:22-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:17:5-79
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:17:22-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:18:5-79
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:18:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:19:5-75
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:19:22-72
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:20:5-76
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:20:22-73
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:21:5-76
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:21:22-73
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:24:2-78
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:24:19-75
+application
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:28:5-220:19
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/48fa818a7f036894883c3a43c1cb2610/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/48fa818a7f036894883c3a43c1cb2610/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c790197eb195eb127f33b641d09f5c87/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0.aar/c790197eb195eb127f33b641d09f5c87/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /Users/vn06qw8/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0.aar/48fa818a7f036894883c3a43c1cb2610/AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:31:9-43
+	android:icon
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:30:9-38
+	android:allowBackup
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:29:9-35
+meta-data#com.amap.api.v2.apikey
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:32:9-34:64
+	android:value
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:34:13-61
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:33:13-50
+activity#com.zh.spsclient.WelcomeView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:38:9-45:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:39:8-40
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:38:19-62
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:40:4-44:20
+action#android.intent.action.MAIN
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:42:5-57
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:42:13-54
+category#android.intent.category.LAUNCHER
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:43:5-65
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:43:15-62
+receiver#com.zh.spsclient.activity.CommandReceiver
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:47:3-56:14
+	tools:ignore
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:47:70-101
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:47:13-69
+intent-filter#action:name:Broadcast_action_map
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:48:5-50:21
+action#Broadcast_action_map
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:49:8-54
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:49:16-51
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:51:5-55:27
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:52:17-79
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:52:25-76
+activity#com.zh.spsclient.activity.ViewMap
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:58:3-62:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:61:7-39
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:60:7-68
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:59:7-55
+activity#com.zh.spsclient.activity.TaskMapView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:64:3-69:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:68:7-39
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:66:7-68
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:65:7-59
+activity#com.zh.spsclient.activity.SampleActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:71:3-75:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:74:7-39
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:73:7-68
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:72:7-62
+activity#com.zh.spsclient.MainView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:76:3-78:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:77:7-39
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:76:13-53
+activity#com.zh.spsclient.LoginView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:80:3-82:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:81:7-39
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:80:13-54
+activity#com.zh.spsclient.InitializingView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:84:3-86:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:85:7-39
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:84:13-61
+activity#com.zh.spsclient.activity.TaskListView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:88:4-90:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:89:8-40
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:88:14-67
+activity#com.zh.spsclient.activity.TaskDetailView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:92:3-94:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:93:7-39
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:92:13-68
+activity#com.zh.spsclient.activity.TaskResultView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:96:3-98:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:97:7-39
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:96:13-68
+service#com.zh.spsclient.service.ConnStateService
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:100:3-70
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:100:12-68
+service#com.zh.spsclient.service.MapService
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:101:3-64
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:101:12-62
+activity#com.zh.spsclient.activity.UploadData
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:104:3-106:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:105:7-39
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:104:13-64
+activity#com.zh.spsclient.activity.LogonView
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:108:3-110:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:109:7-39
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:108:13-63
+activity#com.zh.spsclient.activity.MainActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:112:3-115:14
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:113:7-39
+	android:launchMode
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:114:7-38
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:112:13-66
+activity#com.zh.spsclient.BasicMapActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:130:9-133:49
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:133:13-46
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:132:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:131:13-45
+activity#com.zh.spsclient.CameraDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:134:9-137:51
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:137:13-48
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:136:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:135:13-47
+activity#com.zh.spsclient.EventsDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:138:9-141:51
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:141:13-48
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:140:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:139:13-47
+activity#com.zh.spsclient.LayersDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:142:9-145:51
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:145:13-48
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:144:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:143:13-47
+activity#com.zh.spsclient.MarkerDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:146:9-149:51
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:149:13-48
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:148:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:147:13-47
+activity#com.zh.spsclient.LocationSourceDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:150:9-153:59
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:153:13-56
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:152:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:151:13-55
+activity#com.zh.spsclient.LocationGPSDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:154:9-157:56
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:157:13-53
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:156:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:155:13-52
+activity#com.zh.spsclient.LocManagerProxyDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:158:9-161:60
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:161:13-57
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:160:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:159:13-56
+activity#com.zh.spsclient.OptionsDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:162:9-165:52
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:165:13-49
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:164:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:163:13-48
+activity#com.zh.spsclient.PolygonDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:166:9-169:52
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:169:13-49
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:168:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:167:13-48
+activity#com.zh.spsclient.PolylineDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:170:9-173:53
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:173:13-50
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:172:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:171:13-49
+activity#com.zh.spsclient.TileOverlayDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:174:9-177:57
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:177:13-54
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:176:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:175:13-52
+activity#com.zh.spsclient.MultiMapDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:178:9-181:54
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:181:13-51
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:180:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:179:13-49
+activity#com.zh.spsclient.ProgrammaticDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:182:9-185:57
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:185:13-54
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:184:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:183:13-53
+activity#com.zh.spsclient.UiSettingsDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:186:9-189:55
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:189:13-52
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:188:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:187:13-51
+activity#com.zh.spsclient.route.RouteDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:190:9-193:50
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:193:13-47
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:192:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:191:13-52
+activity#com.zh.spsclient.GeocoderDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:194:9-197:53
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:197:13-50
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:196:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:195:13-49
+activity#com.zh.spsclient.poisearch.PoisearchDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:198:9-211:20
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:201:13-51
+	android:launchMode
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:202:13-43
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:200:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:199:13-60
+intent-filter#action:name:android.intent.action.SEARCH
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:203:13-205:29
+action#android.intent.action.SEARCH
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:204:17-71
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:204:25-68
+meta-data#android.app.searchable
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:207:13-210:25
+	android:resource
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:209:17-51
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:208:17-54
+activity#com.zh.spsclient.offlinemap.OfflineMapDemo
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:212:9-215:55
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:215:13-52
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:214:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:213:13-54
+activity#com.zh.spsclient.MapViewDemoActivity
+ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:216:9-219:52
+	android:label
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:219:13-49
+	android:configChanges
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:218:13-74
+	android:name
+		ADDED from /Users/vn06qw8/workspace/project/spsclient/app/src/main/AndroidManifest.xml:217:13-48

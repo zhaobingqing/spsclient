@@ -1,0 +1,19 @@
+#Internal package file, do not edit.
+#Tue Aug 06 11:40:24 CST 2019
+1.base=/Users/vn06qw8/workspace/project/spsclient/app/build/intermediates/transforms/mergeJniLibs/debug/0
+2.path=arrow.png
+0.baseType=DIRECTORY
+3.baseType=DIRECTORY
+2.base=/Users/vn06qw8/workspace/project/spsclient/app/build/intermediates/assets/debug
+3.set=DEX
+2.set=ASSET
+1.baseType=DIRECTORY
+3.path=classes.dex
+count=4
+1.set=NATIVE_RESOURCE
+0.path=lib/armeabi/libamapv3.so
+3.base=/Users/vn06qw8/workspace/project/spsclient/app/build/intermediates/transforms/dexMerger/debug/0
+0.set=NATIVE_RESOURCE
+0.base=/Users/vn06qw8/workspace/project/spsclient/app/build/intermediates/transforms/mergeJniLibs/debug/0
+2.baseType=DIRECTORY
+1.path=lib/armeabi/libmapv3ex.so

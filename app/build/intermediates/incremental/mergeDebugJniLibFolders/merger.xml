@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/Users/vn06qw8/workspace/project/spsclient/app/src/main/jniLibs"><file name="armeabi/libamapv3.so" path="/Users/vn06qw8/workspace/project/spsclient/app/src/main/jniLibs/armeabi/libamapv3.so"/><file name="armeabi/libmapv3ex.so" path="/Users/vn06qw8/workspace/project/spsclient/app/src/main/jniLibs/armeabi/libmapv3ex.so"/></source></dataSet><dataSet config="debug"><source path="/Users/vn06qw8/workspace/project/spsclient/app/src/debug/jniLibs"/></dataSet></merger>
