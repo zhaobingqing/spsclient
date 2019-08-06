@@ -1,0 +1,306 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/libs/
+* app/libs/Android_Location_V1.0.4.jar
+* app/libs/Android_Map_V2.0.4.jar
+* app/libs/Android_Services_V2.0.4.jar
+* app/libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/assets/
+* app/src/main/assets/.DS_Store
+* app/src/main/assets/arrow.png
+* app/src/main/java/
+* app/src/main/java/com/
+* app/src/main/java/com/zh/
+* app/src/main/java/com/zh/spsclient/
+* app/src/main/java/com/zh/spsclient/InitializingView.java
+* app/src/main/java/com/zh/spsclient/LoginView.java
+* app/src/main/java/com/zh/spsclient/MainView.java
+* app/src/main/java/com/zh/spsclient/WelcomeView.java
+* app/src/main/java/com/zh/spsclient/activity/
+* app/src/main/java/com/zh/spsclient/activity/CommandReceiver.java
+* app/src/main/java/com/zh/spsclient/activity/CommunicationView.java
+* app/src/main/java/com/zh/spsclient/activity/InformationView.java
+* app/src/main/java/com/zh/spsclient/activity/TaskDetailView.java
+* app/src/main/java/com/zh/spsclient/activity/TaskListView.java
+* app/src/main/java/com/zh/spsclient/activity/TaskMapView.java
+* app/src/main/java/com/zh/spsclient/activity/TaskResultView.java
+* app/src/main/java/com/zh/spsclient/activity/ViewHolder.java
+* app/src/main/java/com/zh/spsclient/activity/ViewMap.java
+* app/src/main/java/com/zh/spsclient/common/
+* app/src/main/java/com/zh/spsclient/common/CommonRecord.java
+* app/src/main/java/com/zh/spsclient/common/LocationDataAdapter.java
+* app/src/main/java/com/zh/spsclient/common/TaskStatus.java
+* app/src/main/java/com/zh/spsclient/common/WebServiceAdapter.java
+* app/src/main/java/com/zh/spsclient/dao/
+* app/src/main/java/com/zh/spsclient/dao/MySqliteDBHelper.java
+* app/src/main/java/com/zh/spsclient/dao/PipelineCoorDAO.java
+* app/src/main/java/com/zh/spsclient/dao/PipelineDAO.java
+* app/src/main/java/com/zh/spsclient/dao/RealCoorDAO.java
+* app/src/main/java/com/zh/spsclient/dao/SQLiteDB.java
+* app/src/main/java/com/zh/spsclient/dao/TaskResultDAO.java
+* app/src/main/java/com/zh/spsclient/dao/TasklistDAO.java
+* app/src/main/java/com/zh/spsclient/dao/UserLoginDAO.java
+* app/src/main/java/com/zh/spsclient/entity/
+* app/src/main/java/com/zh/spsclient/entity/ImageFileEntity.java
+* app/src/main/java/com/zh/spsclient/entity/PipelineEntity.java
+* app/src/main/java/com/zh/spsclient/entity/RealCoorDTO.java
+* app/src/main/java/com/zh/spsclient/entity/RealCoorEntity.java
+* app/src/main/java/com/zh/spsclient/entity/TaskEntity.java
+* app/src/main/java/com/zh/spsclient/entity/TaskResultEntity.java
+* app/src/main/java/com/zh/spsclient/entity/TheoCoorEntity.java
+* app/src/main/java/com/zh/spsclient/entity/User.java
+* app/src/main/java/com/zh/spsclient/service/
+* app/src/main/java/com/zh/spsclient/service/ConnStateService.java
+* app/src/main/java/com/zh/spsclient/service/MapService.java
+* app/src/main/java/com/zh/spsclient/service/UnicodeUtils.java
+* app/src/main/java/com/zh/spsclient/util/
+* app/src/main/java/com/zh/spsclient/util/AMapUtil.java
+* app/src/main/java/com/zh/spsclient/util/ChString.java
+* app/src/main/java/com/zh/spsclient/util/Constants.java
+* app/src/main/java/com/zh/spsclient/util/Converts.java
+* app/src/main/java/com/zh/spsclient/util/ImageUtil.java
+* app/src/main/java/com/zh/spsclient/util/ToastUtil.java
+* app/src/main/java/com/zh/spsclient/util/ZMDUtil.java
+* app/src/main/jniLibs/
+* app/src/main/jniLibs/armeabi/
+* app/src/main/jniLibs/armeabi/libamapv3.so
+* app/src/main/jniLibs/armeabi/libmapv3ex.so
+* app/src/main/res/
+* app/src/main/res/anim/
+* app/src/main/res/anim/animation.xml
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/badge_nsw.png
+* app/src/main/res/drawable-hdpi/badge_qld.png
+* app/src/main/res/drawable-hdpi/badge_sa.png
+* app/src/main/res/drawable-hdpi/badge_victoria.png
+* app/src/main/res/drawable-hdpi/badge_wa.png
+* app/src/main/res/drawable-hdpi/bus.png
+* app/src/main/res/drawable-hdpi/car.png
+* app/src/main/res/drawable-hdpi/custom_info_bubble.9.png
+* app/src/main/res/drawable-hdpi/direct_mapsearch.9.png
+* app/src/main/res/drawable-hdpi/direct_mapsearch_pressed.9.png
+* app/src/main/res/drawable-hdpi/divider.png
+* app/src/main/res/drawable-hdpi/end.png
+* app/src/main/res/drawable-hdpi/endcheck.png
+* app/src/main/res/drawable-hdpi/hangcheck.png
+* app/src/main/res/drawable-hdpi/home1.png
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/icon.png
+* app/src/main/res/drawable-hdpi/icon_poisearch.png
+* app/src/main/res/drawable-hdpi/location_marker.png
+* app/src/main/res/drawable-hdpi/man.png
+* app/src/main/res/drawable-hdpi/recordback.png
+* app/src/main/res/drawable-hdpi/restartcheck.png
+* app/src/main/res/drawable-hdpi/returnhome.png
+* app/src/main/res/drawable-hdpi/search_plate_global.9.png
+* app/src/main/res/drawable-hdpi/start.png
+* app/src/main/res/drawable-hdpi/startcheck.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/bus.png
+* app/src/main/res/drawable-ldpi/car.png
+* app/src/main/res/drawable-ldpi/end.png
+* app/src/main/res/drawable-ldpi/home1.png
+* app/src/main/res/drawable-ldpi/ic_launcher.png
+* app/src/main/res/drawable-ldpi/icon.png
+* app/src/main/res/drawable-ldpi/man.png
+* app/src/main/res/drawable-ldpi/start.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/arrow.png
+* app/src/main/res/drawable-mdpi/bus.png
+* app/src/main/res/drawable-mdpi/buttonshape.xml
+* app/src/main/res/drawable-mdpi/buttonshape2.xml
+* app/src/main/res/drawable-mdpi/buttonshape3.xml
+* app/src/main/res/drawable-mdpi/buttonshape4.xml
+* app/src/main/res/drawable-mdpi/buttonshape5.xml
+* app/src/main/res/drawable-mdpi/buttonshape6.xml
+* app/src/main/res/drawable-mdpi/car.png
+* app/src/main/res/drawable-mdpi/custom_info_bubble.9.png
+* app/src/main/res/drawable-mdpi/editshape.xml
+* app/src/main/res/drawable-mdpi/end.png
+* app/src/main/res/drawable-mdpi/home1.png
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/icon.png
+* app/src/main/res/drawable-mdpi/man.png
+* app/src/main/res/drawable-mdpi/selector.xml
+* app/src/main/res/drawable-mdpi/shape.xml
+* app/src/main/res/drawable-mdpi/start.png
+* app/src/main/res/drawable-mdpi/title.xml
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/bus.png
+* app/src/main/res/drawable-xhdpi/car.png
+* app/src/main/res/drawable-xhdpi/end.png
+* app/src/main/res/drawable-xhdpi/home1.png
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/man.png
+* app/src/main/res/drawable-xhdpi/start.png
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/arrow.png
+* app/src/main/res/drawable/background.png
+* app/src/main/res/drawable/beijing.png
+* app/src/main/res/drawable/bill.png
+* app/src/main/res/drawable/btn_default_small.xml
+* app/src/main/res/drawable/btn_default_small_normal.9.png
+* app/src/main/res/drawable/btn_default_small_normal_disable.9.png
+* app/src/main/res/drawable/btn_default_small_pressed.9.png
+* app/src/main/res/drawable/btn_map_poi.xml
+* app/src/main/res/drawable/btn_nav_drag_down.xml
+* app/src/main/res/drawable/btn_nav_drag_down_normal.png
+* app/src/main/res/drawable/btn_nav_drag_down_pressed.png
+* app/src/main/res/drawable/btn_poi_search_normal.png
+* app/src/main/res/drawable/btn_route_next.xml
+* app/src/main/res/drawable/btn_route_pre.xml
+* app/src/main/res/drawable/cart.png
+* app/src/main/res/drawable/communication.png
+* app/src/main/res/drawable/computer.png
+* app/src/main/res/drawable/exitlogin.png
+* app/src/main/res/drawable/home.png
+* app/src/main/res/drawable/home1.png
+* app/src/main/res/drawable/hong1.png
+* app/src/main/res/drawable/ic_action_photo.png
+* app/src/main/res/drawable/info.png
+* app/src/main/res/drawable/left_back.9.png
+* app/src/main/res/drawable/location_marker.png
+* app/src/main/res/drawable/logon.jpg
+* app/src/main/res/drawable/mobile.png
+* app/src/main/res/drawable/mode_driving.xml
+* app/src/main/res/drawable/mode_driving_focused.9.png
+* app/src/main/res/drawable/mode_driving_off.9.png
+* app/src/main/res/drawable/mode_driving_on.9.png
+* app/src/main/res/drawable/mode_transit.xml
+* app/src/main/res/drawable/mode_transit_focused.9.png
+* app/src/main/res/drawable/mode_transit_off.9.png
+* app/src/main/res/drawable/mode_transit_on.9.png
+* app/src/main/res/drawable/mode_walk.xml
+* app/src/main/res/drawable/mode_walk_focused.9.png
+* app/src/main/res/drawable/mode_walk_off.9.png
+* app/src/main/res/drawable/mode_walk_on.9.png
+* app/src/main/res/drawable/newark_nj_1922.png
+* app/src/main/res/drawable/next.png
+* app/src/main/res/drawable/next_disable.png
+* app/src/main/res/drawable/p0.png
+* app/src/main/res/drawable/p1.png
+* app/src/main/res/drawable/p10.png
+* app/src/main/res/drawable/p11.png
+* app/src/main/res/drawable/p2.png
+* app/src/main/res/drawable/p3.png
+* app/src/main/res/drawable/p4.png
+* app/src/main/res/drawable/p5.png
+* app/src/main/res/drawable/p6.png
+* app/src/main/res/drawable/p7.png
+* app/src/main/res/drawable/p8.png
+* app/src/main/res/drawable/p9.png
+* app/src/main/res/drawable/pausing.gif
+* app/src/main/res/drawable/point.png
+* app/src/main/res/drawable/popular.png
+* app/src/main/res/drawable/prev.png
+* app/src/main/res/drawable/prev_disable.png
+* app/src/main/res/drawable/returnback.png
+* app/src/main/res/drawable/setting.png
+* app/src/main/res/drawable/tab_info.xml
+* app/src/main/res/drawable/text_search.xml
+* app/src/main/res/drawable/text_search_default.9.png
+* app/src/main/res/drawable/text_search_pressed.9.png
+* app/src/main/res/drawable/text_search_selected.9.png
+* app/src/main/res/drawable/trippoilistviewbg.xml
+* app/src/main/res/drawable/used.gif
+* app/src/main/res/drawable/welcome.jpg
+* app/src/main/res/drawable/welcome2.jpg
+* app/src/main/res/drawable/welcome3.jpg
+* app/src/main/res/drawable/working.gif
+* app/src/main/res/drawable/working_1.gif
+* app/src/main/res/drawable/working_2.gif
+* app/src/main/res/drawable/working_3.gif
+* app/src/main/res/drawable/working_4.gif
+* app/src/main/res/layout/
+* app/src/main/res/layout/bottom_tab.xml
+* app/src/main/res/layout/communication_view.xml
+* app/src/main/res/layout/information_view.xml
+* app/src/main/res/layout/initializing_view.xml
+* app/src/main/res/layout/listview_item.xml
+* app/src/main/res/layout/listview_row.xml
+* app/src/main/res/layout/login_view.xml
+* app/src/main/res/layout/tab_indicator.xml
+* app/src/main/res/layout/taskdetail_view.xml
+* app/src/main/res/layout/tasklist_view.xml
+* app/src/main/res/layout/taskmap_view.xml
+* app/src/main/res/layout/taskresult_row.xml
+* app/src/main/res/layout/taskresult_view.xml
+* app/src/main/res/layout/viewmap.xml
+* app/src/main/res/layout/welcome_view.xml
+* app/src/main/res/raw/
+* app/src/main/res/raw/system.properties
+* app/src/main/res/values/
+* app/src/main/res/values/arrays.xml
+* app/src/main/res/values/colors.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/xml/
+* app/src/main/res/xml/searchable.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:18.0.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/Android_Location_V1.0.4.jar => app/libs/Android_Location_V1.0.4.jar
+* libs/Android_Map_V2.0.4.jar => app/libs/Android_Map_V2.0.4.jar
+* libs/Android_Services_V2.0.4.jar => app/libs/Android_Services_V2.0.4.jar
+* libs/armeabi/libamapv3.so => app/src/main/jniLibs/armeabi/libamapv3.so
+* libs/armeabi/libmapv3ex.so => app/src/main/jniLibs/armeabi/libmapv3ex.so
+* libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar => app/libs/ksoap2-android-assembly-2.4-jar-with-dependencies.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* info.PNG => info.png
+* welcome2.JPG => welcome2.jpg
+* welcome3.JPG => welcome3.jpg
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

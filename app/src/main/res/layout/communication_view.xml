@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="@color/task_list_view">
+	<!-- 标题行 -->
+	<LinearLayout android:orientation="horizontal"
+		android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:background="@color/gray"
+        android:textColor="#FFFFFFFF"
+        android:textSize="20sp"
+        android:gravity="center">
+		<TextView android:id="@+id/taskDetailName" 
+		    android:layout_width="0dp"
+			android:layout_height="wrap_content" 
+			android:minHeight="50dp"
+        	android:textSize="23sp"
+        	android:textColor="#FFFFFFFF"
+			android:background="@color/gray"
+			android:layout_gravity="center"
+			android:layout_weight="2" 
+			android:textIsSelectable="true"
+			android:gravity="center" 
+			android:text="@string/task_name"/>
+	</LinearLayout>
+	<ScrollView android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<LinearLayout android:orientation="vertical"
+			android:layout_width="fill_parent" 
+			android:layout_height="wrap_content">
+			<!-- 任务详细信息 -->
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45dp" 
+				android:layout_marginBottom="2dp"
+				android:layout_marginTop="8dp">
+				<!-- 任务名称 -->
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/task_name"/>
+				<TextView 
+				    android:id="@+id/taskName" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textIsSelectable="true"
+					android:textColor="#ff000000"/>				
+			</LinearLayout>
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				<!-- 任务描述 -->
+				<TextView 
+					android:layout_height="wrap_content" 
+					android:text="@string/taskdetail_description"
+					android:textStyle="bold" 					
+					android:layout_width="100dp"
+					android:textColor="#ff000000" />
+				<TextView 
+				    android:id="@+id/taskDes" 
+					android:layout_height="wrap_content" 
+					android:text=""
+					android:textStyle="bold" 					
+					android:layout_width="200dp"
+					android:textColor="#ff000000" />
+			</LinearLayout>			
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				<!-- 任务完成状态 -->
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/taskdetail_task_state"/>
+				<TextView 
+				    android:id="@+id/taskState" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text=""/>
+			</LinearLayout>		
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				<!-- 计划时间 -->
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/taskdetail_task_plan_time"/>
+				<TextView 
+				    android:id="@+id/taskPlanTime" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text=""/>
+			</LinearLayout>	
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				<!-- 实施时间 -->
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/taskdetail_task_finished_time"/>
+				<TextView 
+				    android:id="@+id/taskFinishedTime" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text=""/>
+			</LinearLayout>		
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			
+			<!-- 开始位置 -->
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/taskdetail_task_start_position"/>
+				<TextView 
+				    android:id="@+id/taskStartPos" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text=""/>
+			</LinearLayout>		
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			<!-- 结束位置 -->
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/taskdetail_task_finished_position"/>
+				<TextView 
+				    android:id="@+id/taskFinishedPos" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text=""/>
+			</LinearLayout>		
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				<!-- 管线名称 -->
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/pipeline_name"/>
+				<TextView 
+				    android:id="@+id/pipeLineName" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text=""/>
+			</LinearLayout>		
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			<!-- 操作人员 -->
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/operating_person"/>
+				<TextView 
+				    android:id="@+id/txtPerson" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text=""/>
+			</LinearLayout>		
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+			<!-- 操作部门-->
+			<LinearLayout android:orientation="horizontal"
+				android:layout_width="wrap_content" 
+				android:layout_height="wrap_content"
+				android:layout_marginLeft="45sp" 
+				android:layout_marginTop="8sp">
+				
+				<TextView 				    
+				    android:layout_width="100dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text="@string/operating_department"/>
+				<TextView 
+				    android:id="@+id/txtDept" 
+				    android:layout_width="200dp"
+					android:layout_height="wrap_content" 
+					android:textColor="#ff000000" 
+					android:text=""/>
+			</LinearLayout>		
+			<View android:layout_width="fill_parent" 
+			    android:layout_height="1dip"
+			    android:layout_margin="5dp" 
+			    android:layout_marginLeft="8dp" 
+			    android:layout_marginTop="8dp"
+			    android:layout_marginBottom="9dp"
+				android:background="#FF909090" />
+		</LinearLayout>		
+			
+	</ScrollView>	
+</LinearLayout>

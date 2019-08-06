@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutLinear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/mark_listenter_text"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" 
+        android:background="@color/gray"
+        android:textColor="#FFFFFFFF"
+        android:textSize="23sp"
+        android:gravity="center"
+        />
+    
+<RelativeLayout 
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	android:background="#FFFFF9EB">	
+	
+		<fragment
+	        android:id="@+id/map"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        class="com.amap.api.maps.SupportMapFragment" />
+		
+		<!-- <Button
+					android:id="@+id/btnEndChecking"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:layout_alignParentLeft="true"
+					android:layout_alignParentTop="true"
+					android:text="@string/taskmap_view_end_checking" /> -->
+					
+		<ScrollView
+		    android:id="@+id/scrollMenu"		    
+		    android:visibility="visible"
+	        android:layout_width="90dp"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:layout_marginBottom="50dp">
+
+	        <LinearLayout
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@color/task_list_view"
+	            android:orientation="vertical"
+	            android:paddingRight="0dp" >
+				<!-- 返回首页 -->
+	             <Button 
+	                android:id="@+id/btnReturnMain"
+					android:layout_width="90dp"
+					android:layout_height="45dp"
+					android:onClick="setReturnMain"
+					android:background="@drawable/buttonshape6"
+					android:drawableLeft="@drawable/returnhome"
+					android:paddingLeft="7dp"
+					android:layout_marginBottom="5dp"
+	            	android:text=""></Button>
+	             <!-- 开始巡检 -->
+	            <Button 
+	                android:id="@+id/btnStartChecking"
+					android:layout_width="90dp"
+					android:layout_height="45dp"
+					android:onClick="setStartCheck"
+					android:background="@drawable/buttonshape6"
+					android:drawableLeft="@drawable/startcheck"
+					android:paddingLeft="7dp"
+					android:layout_marginBottom="5dp"
+	            	android:text=""></Button>
+	             <!-- 结束巡检 -->
+	            <Button 
+	                android:id="@+id/btnEndChecking"
+					android:layout_width="90dp"
+					android:layout_height="45dp"
+					android:onClick="setEndCheck"
+					android:background="@drawable/buttonshape6"
+					android:drawableLeft="@drawable/endcheck"
+					android:paddingLeft="7dp"
+					android:layout_marginBottom="5dp"
+	            	android:text=""></Button>
+	            <!-- 暂停巡检 -->
+	            <Button 
+	                android:id="@+id/btnPauseChecking"
+					android:layout_width="90dp"
+					android:layout_height="45dp"
+					android:onClick="setPauseCheck"
+					android:background="@drawable/buttonshape6"
+					android:drawableLeft="@drawable/hangcheck"
+					android:paddingLeft="7dp"
+					android:layout_marginBottom="5dp"
+	            	android:text=""></Button>
+	            <!-- 重新开始-->
+	            <Button 
+	                android:id="@+id/btnRestartChecking"
+					android:layout_width="90dp"
+					android:layout_height="45dp"
+					android:onClick="setRestartCheck"
+					android:background="@drawable/buttonshape6"
+					android:drawableLeft="@drawable/restartcheck"
+					android:paddingLeft="7dp"
+					android:layout_marginBottom="5dp"
+	            	android:text=""></Button>
+	            <!-- 录入数据 -->
+	            <Button 
+	                android:id="@+id/btnRecordFeedback"
+					android:layout_width="90dp"
+					android:layout_height="45dp"
+					android:onClick="setRecordData"
+					android:background="@drawable/buttonshape6"
+					android:drawableLeft="@drawable/recordback"
+					android:paddingLeft="7dp"
+					android:layout_marginBottom="0dp"
+	            	android:text=""></Button>
+	            <!-- 刷新 -->
+	            <!-- <Button 
+	                android:id="@+id/btnRefresh"
+					android:layout_width="80dp"
+					android:layout_height="35dp"
+					android:onClick="setRefresh"
+					android:background="@drawable/buttonshape2"
+					android:layout_marginLeft="5dp"
+					android:layout_marginRight="5dp"
+					android:layout_marginBottom="8dp"
+					android:layout_marginTop="8dp"
+					android:textColor="@color/black"
+	            	android:text="@string/refresh_main"></Button> -->
+	        </LinearLayout>
+	    </ScrollView>		
+		 
+</RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector"
+    android:minHeight="80dp"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="3dp" >
+
+            <!-- 左边图片 -->
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:contentDescription="@string/tasklist_left_img" />
+
+            <!-- 任务名称 -->
+
+            <TextView
+                android:id="@+id/taskName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text=""
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <!-- 任务状态 -->
+
+            <TextView
+                android:id="@+id/taskState"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="3dp"
+                android:text=""
+                android:visibility="gone"
+                android:textColor="#000000"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:orientation="horizontal" >
+
+            <!-- 任务描述 -->
+
+            <TextView
+                android:id="@+id/taskDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text=""
+                android:textColor="#000000" />
+        </LinearLayout>
+    </LinearLayout>
+
+    
+
+        <!-- 查看详细按钮 -->
+        <Button
+            android:id="@+id/view_btn"
+            android:layout_width="90dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="0dp"
+            android:background="@drawable/buttonshape3"
+            android:contentDescription="@string/detail"
+            android:focusable="false"
+            android:layout_gravity="center_vertical"
+            android:textColor="@color/black"
+            android:text="@string/detailSymbol" />
+    
+
+</LinearLayout>

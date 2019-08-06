@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 
+android:background：设置当列表项获取焦点和按下时显示的效果，
+trippoilistviewbg.xml在res/drawable/位置 -->
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="horizontal" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent" 
+	
+	android:background="@drawable/trippoilistviewbg">
+	
+	<!-- 任务反馈描述，任务反馈时间，任务反馈的当前位置的LinearLayout-->
+	<LinearLayout 
+	    android:orientation="vertical"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"
+		android:layout_marginTop="10dp" 
+		android:layout_marginLeft="20dp"
+		android:layout_marginRight="10dp"
+		android:layout_marginBottom="10dp">
+		<!-- 任务反馈描述-->
+		<TextView android:id="@+id/resultContent" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textIsSelectable="true"
+			android:textSize="20sp"
+			android:textColor="#ff000000" />
+		<!-- 任务反馈时间 -->
+		<TextView android:id="@+id/resultTime" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="#ff000000"
+			android:layout_marginTop="5dp" 
+			android:textIsSelectable="true"
+			android:layout_marginRight="20dp" />
+		<!-- 任务反馈的当前位置 -->
+		<TextView android:id="@+id/resultPosition" 
+		    android:layout_width="wrap_content"
+			android:layout_height="wrap_content" 
+			android:textColor="#ffFF0000"
+			android:layout_marginTop="5dp" 
+			android:textIsSelectable="true"
+			android:layout_marginRight="20dp" />
+	</LinearLayout>
+</LinearLayout>
